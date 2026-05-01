@@ -1,0 +1,30 @@
+# Build artifacts
+_build/
+exports/
+
+# OS files
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Scratch files
+scratch/
+
+# Extraction scripts (not needed in the book)
+extract_*.py
+view_md.py
+update_notebook*.py
+create_assignment*.py
+
+# Large files not needed for the book site
+Lecture notes/
+Assignments/
+*.ipynb
+*.docx
+*.xlsx
+*.tmp
+~*
+figure_page*
+deploy_gh_pages.sh

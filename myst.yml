@@ -1,0 +1,44 @@
+# ============================================================
+# AAE 451 - Aircraft Conceptual Design: Jupyter Book Config
+# Optimized for dual-distribution: HTML (interactive) + PDF
+# ============================================================
+version: 1
+
+project:
+  title: "AAE 451 – Aircraft Conceptual Design"
+  subtitle: "3D-Printed Aircraft Design Course Notes"
+  authors:
+    - name: "Timothée Guimara"
+      affiliations:
+        - "Purdue University"
+  copyright: "2026"
+  license: CC-BY-4.0
+  subject: "Aerospace Engineering"
+  keywords:
+    - aircraft design
+    - constraint diagram
+    - weight estimation
+    - electric aircraft
+  abbreviations:
+    AR: Aspect Ratio
+    WER: Weight Estimating Relationship
+    DBF: Design Build Fly
+
+  toc:
+    - file: index.md
+    - title: "Lecture Notes"
+      children:
+        - file: lecture_02_constraint_diagram.md
+        - file: lecture_04_initial_weight_estimation.md
+
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      output: exports/AAE451_3DPRINTED_LectureNotes.pdf
+
+site:
+  title: "AAE 451 – Aircraft Conceptual Design"
+  options:
+    favicon: ""
+    logo: ""
+  template: book-theme
