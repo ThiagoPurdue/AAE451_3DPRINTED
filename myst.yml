@@ -5,12 +5,13 @@
 version: 1
 
 project:
-  title: "AAE 451 – Aircraft Conceptual Design"
+  title: "AAE 451 - Aircraft Conceptual Design"
   subtitle: "3D-Printed Aircraft Design Course Notes"
   authors:
-    - name: "Timothée Guimara"
+    - name: "Thiago Guimaraes"
       affiliations:
         - "Purdue University"
+  date: 2026-04-30
   copyright: "2026"
   license: CC-BY-4.0
   subject: "Aerospace Engineering"
@@ -23,6 +24,10 @@ project:
     AR: Aspect Ratio
     WER: Weight Estimating Relationship
     DBF: Design Build Fly
+  math:
+    '\etap': '\eta_p'
+    '\etam': '\eta_m'
+    '\eB': 'e_B'
 
   toc:
     - file: index.md
@@ -30,14 +35,16 @@ project:
       children:
         - file: lecture_02_constraint_diagram.md
         - file: lecture_04_initial_weight_estimation.md
+        - file: lecture_05_wing_and_tail_design.md
 
   exports:
     - format: pdf
       template: plain_latex_book
       output: exports/AAE451_3DPRINTED_LectureNotes.pdf
+      article_type: Report
 
 site:
-  title: "AAE 451 – Aircraft Conceptual Design"
+  title: "AAE 451 - Aircraft Conceptual Design"
   options:
     favicon: ""
     logo: ""
