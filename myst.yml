@@ -44,7 +44,7 @@ project:
       article_type: Report
 
 site:
-  base_url: /AAE451_3DPRINTED/
+  base_url: /AAE451_3DPRINTED
   title: "AAE 451 - Aircraft Conceptual Design"
   options:
     favicon: ""
