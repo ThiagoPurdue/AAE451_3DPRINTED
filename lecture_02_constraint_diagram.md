@@ -73,12 +73,12 @@ $$ (eq:cruise-constraint)
 
 This equation creates a curve on the constraint diagram where power loading must be greater than or equal to the required power loading for a given wing loading.
 
-:::{figure} lecture_02_images/figure_page14_1_refined.png
+:::{figure} lecture_02_images/figure_page14_1_professional.png
 :name: fig-constraint-cruise
 :width: 85%
 :align: center
 
-Refined diagram showing forces and reference axes on a climbing aircraft. The angles $\alpha$ (angle of attack), $\gamma$ (climb angle), and $\epsilon$ (thrust offset) are clearly represented relative to the flight path, chord line, and horizon.
+Professional aeronautical engineering diagram showing force vectors and reference axes on a climbing aircraft. The angles $\gamma$ (climb angle), $\alpha$ (angle of attack), and $\epsilon$ (thrust offset) are represented relative to the horizon, flight path, and tangent axis.
 :::
 
 ## 3rd Constraint: Sizing to Climb Requirement
