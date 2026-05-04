@@ -26,8 +26,6 @@ Assignments/
 *.xlsx
 *.tmp
 ~*
-# Specific figures to include
-!lecture_*_images/figure_page*
-
 figure_page*
+!lecture_*_images/figure_page*
 deploy_gh_pages.sh
