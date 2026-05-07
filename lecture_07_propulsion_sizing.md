@@ -30,6 +30,14 @@ Propeller performance is typically evaluated using non-dimensional coefficients.
 
 *(Note: $n$ is revolutions per second (rev/s), $D$ is the propeller diameter, and $\rho$ is air density).*
 
+:::{figure} lecture_07_propulsion_sizing_images/figure_page6_5.png
+:name: fig-apc-data
+:align: center
+:width: 600px
+
+Example of propeller performance data (Efficiency, $C_P$, and $C_T$ vs Advance Ratio $J$).
+:::
+
 ---
 
 ## Electric Power Flow
@@ -63,6 +71,14 @@ $$ (eq:static-thrust)
 
 When selecting a motor/propeller combo, refer to static thrust charts provided by the motor manufacturer (e.g., Cobra Motors) or utilize online calculators like **eCalc** to ensure your setup meets this $T_0$ requirement.
 
+:::{figure} lecture_07_propulsion_sizing_images/figure_page25_4.png
+:name: fig-ecalc
+:align: center
+:width: 600px
+
+eCalc is a highly recommended tool for predicting static thrust and electric propulsion performance.
+:::
+
 ---
 
 ## Selection Process
@@ -77,3 +93,11 @@ The iterative process for sizing your propulsion system is:
 > **Integration Considerations:**
 > - **Thrust Line:** Ensure your motor thrust line passes near the center of gravity (CG). If mounted high (like on a pylon), adding thrust will create a nose-down pitching moment.
 > - **Fuselage Blockage:** A bulky, 3D-printed square fuselage directly behind the propeller will significantly reduce the effective thrust. Streamline the nose section!
+
+:::{figure} lecture_07_propulsion_sizing_images/figure_page24_8.png
+:name: fig-fuselage-blockage
+:align: center
+:width: 500px
+
+Avoid large, un-aerodynamic fuselage cross-sections directly behind the propeller to minimize thrust blockage.
+:::

@@ -5,10 +5,26 @@ During the conceptual design phase, we typically have little structural detail; 
 
 For our 3D-printed UAVs, standardizing structural architectures—like using carbon fiber tube spars with 3D-printed aerodynamic shells (the "skeleton-and-skin" approach)—allows us to build lightweight, highly predictable airframes.
 
+:::{figure} lecture_09_structural_design_images/figure_page7_1.png
+:name: fig-exploded-cad
+:align: center
+:width: 600px
+
+Exploded view of a typical UAV CAD model showing structural and payload components.
+:::
+
 ---
 
 ## The Wing Box
 The wing box is the primary structural spine of the aircraft, resisting aerodynamic lift, drag, and twisting moments. 
+
+:::{figure} lecture_09_structural_design_images/figure_page3_1.png
+:name: fig-wingbox-components
+:align: center
+:width: 500px
+
+Typical components of a wing box: spars, ribs, and skins.
+:::
 
 :::{table} Wing Box Components
 :name: tab-wingbox
@@ -64,6 +80,14 @@ You must maintain a detailed **Center of Gravity (CG) Table**, comparing the pre
 During flight, the fuselage acts as a beam undergoing bending and shear.
 - **Upward forces:** Wing lift at the wing root.
 - **Downward forces:** Distributed weights of the motor, battery, payload, and the aerodynamic downforce from the horizontal tail.
+
+:::{figure} lecture_09_structural_design_images/figure_page18_1.png
+:name: fig-fuselage-loads
+:align: center
+:width: 600px
+
+Fuselage load paths showing shear force and bending moment distributions.
+:::
 
 ### Fuselage Loads During Landing
 Landing is often the most critical load case for the fuselage. A hard landing can easily impart a 10g load ($n=10$) into the airframe through the landing gear mounts.

@@ -12,6 +12,14 @@ During the conceptual design phase, estimating drag accurately determines:
 
 Instead of running high-fidelity Computational Fluid Dynamics (CFD) on day one, we rely on a **subsonic drag build-up** method. This allows us to predict the aircraft $C_D$ based on empirical relationships applied to individual geometric components, making it perfect for rapid iterations in our sizing codes.
 
+:::{figure} lecture_06_drag_prediction_images/figure_page27_2.jpeg
+:name: fig-cirrus-sr22
+:align: center
+:width: 600px
+
+A standard general aviation aircraft (such as the Cirrus SR22) used for drag build-up example calculations.
+:::
+
 ---
 
 ## Three Types of Drag

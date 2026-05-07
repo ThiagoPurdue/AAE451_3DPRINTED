@@ -42,6 +42,14 @@ When running the simulation, you must define the takeoff criteria:
 - **Fixed Angle of Attack (AoA):** The aircraft rolls at a constant $C_{L,g}$ until it lifts off naturally when $L = W$ (often at $V_{LO} \approx 1.2 V_{stall}$).
 - **Rotational Takeoff:** The aircraft rolls at a low $C_{L,g}$ to minimize drag, then rapidly increases AoA (rotates) at a specific speed ($V_R \approx 1.1 V_{stall}$) to lift off. This requires elevator authority.
 
+:::{figure} lecture_10_performance_images/figure_page5_1.png
+:name: fig-takeoff-results
+:align: center
+:width: 600px
+
+Example of takeoff performance simulation results showing distance vs. velocity.
+:::
+
 ---
 
 ## Climb Performance
@@ -59,6 +67,14 @@ $$ (eq:rate-of-climb)
 
 To predict time to climb or altitude profiles, you evaluate $T(V, rpm)$ and $D(V, h)$ iteratively as air density changes with altitude.
 
+:::{figure} lecture_10_performance_images/figure_page9_1.png
+:name: fig-climb-results
+:align: center
+:width: 600px
+
+Example of climb performance results showing rate of climb across various speeds and altitudes.
+:::
+
 ---
 
 ## Cruise Performance
@@ -75,6 +91,14 @@ We plot both **Thrust Required** and **Thrust Available** as functions of veloci
 Where the $T_A$ curve intersects the $T_R$ curve on the right-hand side represents the **Maximum Level Speed ($V_{max}$)**. The distance between the curves represents the **Excess Thrust**. 
 
 Alternatively, multiplying these curves by Velocity ($V$) yields the **Power Required** and **Power Available** curves. For electric aircraft, evaluating the power required at your target cruise speed directly dictates your steady-state current draw and, consequently, your maximum range/endurance.
+
+:::{figure} lecture_10_performance_images/figure_page11_1.png
+:name: fig-cruise-results
+:align: center
+:width: 600px
+
+Example of cruise performance results showing thrust and power required versus available.
+:::
 
 ---
 
