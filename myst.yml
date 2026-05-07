@@ -36,6 +36,10 @@ project:
         - file: lecture_02_constraint_diagram.md
         - file: lecture_04_initial_weight_estimation.md
         - file: lecture_05_wing_and_tail_design.md
+        - file: lecture_06_drag_prediction.md
+        - file: lecture_07_propulsion_sizing.md
+        - file: lecture_09_structural_design.md
+        - file: lecture_10_performance.md
 
   exports:
     - format: pdf

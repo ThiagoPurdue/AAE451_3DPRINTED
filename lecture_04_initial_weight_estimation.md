@@ -22,6 +22,14 @@ To estimate this energy, our approach is as follows:
 | 6 | Land and taxi |
 :::
 
+:::{figure} lecture_04_images/mission_profile.png
+:name: fig-mission-profile
+:align: center
+:width: 600px
+
+Typical Mission Profile for a Regional Cargo UAV showing the six standard flight phases.
+:::
+
 ## Weight Breakdown
 The total aircraft weight ($W$) is broken down into three main components:
 
